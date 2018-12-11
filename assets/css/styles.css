@@ -5,6 +5,15 @@
     left: 0;
     width: 16em;
     height: 100vh;
+    margin-left: 1em;
+    text-align: center;
+}
+
+.nav-item {
+    margin-top: 0.5em;
+    border-top: 1px solid black;
+    padding-top: 0.5em;
+    color: #2c1717d4;
 }
 
 .container {
@@ -17,9 +26,27 @@
     flex-direction: column;
 }
 
+#heading-main {
+    font-size: 140%;
+    margin-top: 2em;
+}
+
+.topic-headings {
+    font-size: 130%;
+}
+
+p {
+    line-height: 1.2em;
+    margin-top: 1em;
+}
+
+.content-points {
+    list-style-type: square;
+}
+
 
 /*Temporary boxes */
 
-#navbar {
+/* #navbar {
     outline: 2px solid black;
-}
+} */
