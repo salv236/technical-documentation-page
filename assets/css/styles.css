@@ -1,0 +1,25 @@
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 16em;
+    height: 100vh;
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+#main-doc {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Temporary boxes */
+
+#navbar {
+    outline: 2px solid black;
+}
