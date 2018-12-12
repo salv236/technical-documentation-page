@@ -13,11 +13,11 @@
     margin-top: 0.5em;
     border-top: 1px solid black;
     padding-top: 0.5em;
-    color: #2c1717d4;
+    color: #8e7272;;
 }
 
 .container {
-    max-width: 70%;
+    max-width: 65%;
     margin: 0 auto;
 }
 
@@ -35,13 +35,29 @@
     font-size: 130%;
 }
 
+.topic-headings,
+.code {
+    margin: 1em 0;
+}
+
+.code {
+    display: inline-block;
+    color: #926666;
+    font-weight: 600;
+}
+
 p {
     line-height: 1.2em;
-    margin-top: 1em;
+    /* margin-top: 1em; */
 }
 
 .content-points {
     list-style-type: square;
+}
+
+p,
+.content-points {
+    color: #8e7272;
 }
 
 
