@@ -91,6 +91,24 @@ p,
     }
 }
 
+@media screen and (min-width: 360px) {
+    #navbar {
+        width: 6em;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    #navbar {
+        width: 8em;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    #navbar {
+        width: 10em;
+    }
+}
+
 /* @media screen and (min-width: 400px) {
     #navbar {
         width: 4em;
