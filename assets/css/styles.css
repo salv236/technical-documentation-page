@@ -1,4 +1,3 @@
-
 #navbar {
     position: fixed;
     top: 0;
@@ -58,6 +57,29 @@ p {
 p,
 .content-points {
     color: #8e7272;
+}
+
+#mdn {
+    color: #4d4da1;
+}
+
+@media screen and (max-width: 400px) {
+    #navbar {
+        width: 4em;
+    }
+
+    #heading-main {
+        font-size: 92%;
+    }
+
+    .topic-headings {
+        font-size: 90%;
+    }
+    .nav-item,
+    p,
+    .content-points {
+        font-size: 80%;
+    }
 }
 
 
