@@ -68,6 +68,11 @@ p,
         width: 4em;
     }
 
+    #main-doc {
+        width: 70%;
+        margin: 0 auto;
+    }
+
     #heading-main {
         font-size: 92%;
     }
