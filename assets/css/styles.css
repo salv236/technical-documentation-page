@@ -63,7 +63,35 @@ p,
     color: #4d4da1;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 320px) {
+    #navbar {
+        width: 4em;
+    }
+
+    .nav-item {
+        margin-top: 1em;
+    }
+    
+    #main-doc {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #heading-main {
+        font-size: 92%;
+    }
+
+    .topic-headings {
+        font-size: 90%;
+    }
+    .nav-item,
+    p,
+    .content-points {
+        font-size: 80%;
+    }
+}
+
+/* @media screen and (min-width: 400px) {
     #navbar {
         width: 4em;
     }
@@ -85,7 +113,9 @@ p,
     .content-points {
         font-size: 80%;
     }
-}
+} */
+
+
 
 
 /*Temporary boxes */
